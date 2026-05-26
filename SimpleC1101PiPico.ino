@@ -147,7 +147,7 @@ void loop() {
   Serial.print(F("[CC1101] Transmitting packet ... "));
 
   // you can transmit C-string or Arduino string up to 255 characters long
-  int state = radio.transmit("Hello World!");
+  int state = radio.transmit("AAAAAAAAAA2DD4AA5B2C10051218FFFFFF0008040616FFF0800000000000000000");
 
   // you can also transmit byte array up to 255 bytes long
   // With some limitations see here: https://github.com/jgromes/RadioLib/discussions/1138
